@@ -16,11 +16,11 @@ export default class Navigation extends Component {
                 <div id="navbarCollapse" className="collapse navbar-collapse">
                     <ul className="nav navbar-nav">
                         <li><a id="overviewNav" href="./">Overview</a></li>
-                        <li><a id="knowledgeNav" href="./knowledge">Knowledge</a></li>
-                        <li><a id="experienceNav" href="./experience">Experience</a></li>
-                        <li><a id="educationNav" href="./education">Education</a></li>
-                        <li><a id="resumeNav" href="./resume">Resume</a></li>
-                        <li><a id="contactNav" href="./contact">Contact</a></li>
+                        <li><a id="knowledgeNav" href="./#/knowledge">Knowledge</a></li>
+                        <li><a id="experienceNav" href="./#/experience">Experience</a></li>
+                        <li><a id="educationNav" href="./#/education">Education</a></li>
+                        <li><a id="resumeNav" href="./#/resume">Resume</a></li>
+                        <li><a id="contactNav" href="./#/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
