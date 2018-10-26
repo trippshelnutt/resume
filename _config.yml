@@ -1,2 +1,6 @@
 exclude:
     -    old-react-src
+
+collections:
+    jobs:
+        output: false
