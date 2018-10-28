@@ -5,23 +5,25 @@
 
 <body>
 
+	<div class="section-break"></div>
 	{% include header.html %}
+	<div class="section-break"></div>
 
-	{% include overview.html %}
+	<div class="container">
 
-	{% include knowledge.html %}
+		{% include overview.html %}
+		<div class="section-break"></div>
+		{% include knowledge.html %}
+		<div class="section-break"></div>
+		{% include experience.html %}
+		<div class="section-break"></div>
+		{% include education.html %}
+		<div class="section-break"></div>
+		{% include resume.html %}
+		<div class="section-break"></div>
+		{% include contact.html %}
 
-	{% include experience.html %}
-
-	{% include education.html %}
-
-	{% include resume.html %}
-
-	{% include contact.html %}
-
-	{% include footer.html %}
-
-	{% include end-of-body-scripts.html %}
+	</div>
 
 </body>
 </html>
