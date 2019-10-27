@@ -1,83 +1,74 @@
-/*
-color scheme
-283044
-546A76
-88A0A8
-8DA9C4
-E6EBE0
-*/
+---
+---
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
-	margin: 0px;
-	padding: 0px;
-	color: #283044;
-	background-color: #E6EBE0; 
-	font-family: 'Gill Sans', sans-serif;
-	font-size: 12pt;
+	@apply text-gray-700 bg-orange-100 font-sans text-base;
+}
+
+a {
+	@apply text-gray-900 font-mono underline;
+}
+
+h1 {
+	@apply text-4xl font-bold py-4;
+}
+
+h2 {
+	@apply text-3xl font-bold py-3;
+}
+
+h3 {
+	@apply text-2xl font-bold py-2;
+}
+
+h4 {
+	@apply text-xl font-bold py-1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	font-family: Georgia, serif;
-	margin: 0px;
+	@apply m-0 text-gray-900 font-mono;
+}
+
+p {
+	@apply my-4;
+}
+
+ul {
+	@apply list-disc my-4 pl-6;
 }
 
 header {
-	text-align: center;
-	color: #283044; 
-	background-color: #8DA9C4;
+	@apply text-center text-gray-900;
 }
 
-.container {
-	min-width: 300px;
-	padding-left: 10px;
-	padding-right: 10px;
+footer {
+	@apply text-center text-gray-900 pb-16 italic;
 }
 
-.section-break {
-	margin: 0px;
-	padding: 0px;
-	height: 2px;
-	background: #8DA9C4;
-	background: linear-gradient(90deg, rgba(40,48,68,1) 0%, rgba(141,169,196,1) 19%, rgba(84,106,118,1) 100%);
-	border-top: 1px solid #283044;
-	border-bottom: 1px solid #283044;
+.main-section {
+	@apply m-auto px-4;
 }
 
-@media (min-width: 600px) {
-	body {
-		font-size: 2.5vw;
-	}
-	.container {
-		padding-left: 5vw;
-		padding-right: 5vw;
+@screen sm {
+	.main-section {
+		@apply max-w-xl;
 	}
 }
-@media (min-width: 900px) {
-	body {
-		font-size: 2vw;
-	}
-	.container {
-		padding-left: 15vw;
-		padding-right: 15vw;
+@screen md {
+	.main-section {
+		@apply max-w-2xl;
 	}
 }
-@media (min-width: 1200px) {
-	body {
-		font-size: 1.5vw;
-	}
-	.container {
-		padding-left: 20vw;
-		padding-right: 20vw;
+@screen lg {
+	.main-section {
+		@apply max-w-4xl;
 	}
 }
-@media (min-width: 1800px) {
-	body {
-		font-size: 1vw;
-	}
-	.container {
-		padding-left: 25vw;
-		padding-right: 25vw;
+@screen xl {
+	.main-section {
+		@apply max-w-6xl;
 	}
 }

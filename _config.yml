@@ -1,5 +1,14 @@
+plugins:
+    - jekyll-postcss
+    - jekyll-purgecss
+
 exclude:
-    -    old-react-src
+    - old-react-src
+    - node_modules
+    - package-lock.json
+    - .gitignore
+    - postcss.config.js
+    - purgecss.config.js
 
 collections:
     jobs:
