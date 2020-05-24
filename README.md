@@ -3,14 +3,27 @@
 ### About This Repository
 
 This repository is an example resume website built using the following technologies/frameworks:
-- Jekyll
+- Jekyll (requires v. 4 for newer features)
   - postcss
   - purgecss
 - Tailwindcss
 - Netlify (hosting)
 
+### Build and Run
+
+The following command will build and run the site.
+```console
+$ jekyll serve
+```
+
+If you just want to build the site.
+```console
+$ jekyll build
+```
+
 ### File Structure
 
+This should be a pretty comprehensive list of the file structure of the site along with the uses for each file.
 - _includes
   - *.html
     - Each of these files are used for different parts of the resume website. Some use the `<section>` tag to represent different sections in the body of the resume and then the header and footer use the `<header>` and `<footer>` tags respectively.
