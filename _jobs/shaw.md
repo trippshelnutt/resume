@@ -1,7 +1,7 @@
 ---
-order: 2
+company_order: 2
 company: Shaw Industries Group, Inc.
-companyUrl: https://www.shawfloors.com
+company_url: https://www.shawfloors.com
 city: Dalton
 state: GA
 positions:

@@ -1,7 +1,7 @@
 ---
-order: 1
+company_order: 1
 company: InventureIT
-companyUrl: https://www.inventureit.com
+company_url: https://www.inventureit.com
 city: Dalton
 state: GA
 positions:

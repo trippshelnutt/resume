@@ -1,7 +1,7 @@
 ---
-order: 3
+company_order: 3
 company: Harrison Audio, LLC
-companyUrl: https://www.harrisonconsoles.com
+company_url: https://www.harrisonconsoles.com
 city: LaVergne
 state: TN
 positions:

@@ -16,5 +16,5 @@ exclude:
 
 collections:
     jobs:
-        sort_by: order
+        sort_by: company_order
         output: false
