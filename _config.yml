@@ -16,4 +16,5 @@ exclude:
 
 collections:
     jobs:
+        sort_by: order
         output: false

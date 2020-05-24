@@ -1,8 +1,7 @@
 <section id="experience">
     <h3>Experience</h3>
-    {% assign jobs = site.jobs | sort:"order" %}
-    {% for job in jobs %}
-        <p><a href="{{ job.url }}" target="_blank">{{ job.company }}</a>, {{ job.city }}, {{ job.state }}.</p>
+    {% for job in site.jobs %}
+        <p><a href="{{ job.companyUrl }}" target="_blank">{{ job.company }}</a>, {{ job.city }}, {{ job.state }}.</p>
         {% for position in job.positions %}
             <p>{{ position.name }}. {{ position.start }} - {{ position.end }}.</p>
         {% endfor %}
