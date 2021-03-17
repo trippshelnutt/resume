@@ -1,4 +1,4 @@
 [Settings]
 
 [context.production]
-  environment = { JEKYLL_ENV = 'production' }
+  environment = { NODE_ENV = 'production' }
